@@ -1,0 +1,59 @@
+.li-loi-ich{
+    list-style: disc;
+    text-align: left !important;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.slider-text-header{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.slider-text-title{
+    text-align: center;
+    color: #fff;
+    padding: 3px;
+    background-color: #ff5959;
+    border-radius: 5px;
+}
+.slider-contact {
+    text-align: center;
+    font-weight: bold;
+}
+.album {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #f7f7f7;
+  }
+  
+  .card {
+    float: left;
+    width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+  }
+  
+  .card > img {
+    margin-bottom: .75rem;
+    max-width: 100%;
+  }
+  
+  .card-text {
+    font-size: 85%;
+  }
+  .ul-check-match {
+    background-color: transparent;
+    list-style: none;
+  }
+  .li-check-match{
+    text-align: start;
+    color: #fff;
+    font-size: 25px;
+  }
+  .ul-check-match .li-check-match:before {
+    content: '✓. ';
+    font-size: 34px;
+    color: #fff;
+  }
