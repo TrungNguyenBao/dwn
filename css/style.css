@@ -8252,7 +8252,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 14px;
+    font-size: 17px;
     padding-top: 1.4rem;
     padding-bottom: 1.4rem;
     padding-left: 20px;
@@ -8502,12 +8502,12 @@ h1, h2, h3, h4, h5,
         left: 0;
         right: 0;
         background: #ff5959;
-        background: -moz-linear-gradient(45deg, #f58484 0%, #efdfd5 100%);
+        background: -moz-linear-gradient(45deg, #f1e4e4  0%, #ead888  100%);
         background: -webkit-gradient(left bottom, right top, color-stop(0%, #ff5959), color-stop(100%, #fd6100));
-        background: -webkit-linear-gradient(45deg, #f58484 0%, #efdfd5 100%);
-        background: -o-linear-gradient(45deg, #f58484 0%, #efdfd5 100%);
-        background: -ms-linear-gradient(45deg, #f58484 0%, #efdfd5 100%);
-        background: linear-gradient(45deg, #f58484 0%, #efdfd5 100%);
+        background: -webkit-linear-gradient(45deg, #f1e4e4  0%, #ead888  100%);
+        background: -o-linear-gradient(45deg, #f1e4e4  0%, #ead888  100%);
+        background: -ms-linear-gradient(45deg, #f1e4e4  0%, #ead888  100%);
+        background: linear-gradient(45deg, #f1e4e4  0%, #ead888  100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5959', endColorstr='#fd6100', GradientType=1 );
         opacity: .5; }
       .owl-carousel.home-slider .slider-item .slider-text {
@@ -9024,7 +9024,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 3em 0;
+  padding: 1em 0;
   position: relative; }
 
 .ftco-no-pt {
@@ -9410,16 +9410,19 @@ textarea.form-control {
     content: '';
     z-index: -1;
     opacity: .8;
-    background: #ff5959;
-    background: #ff5959;
-    background: -moz-linear-gradient(45deg, #f58484 0%, #efdfd5 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #ff5959), color-stop(100%, #fd6100));
-    background: -webkit-linear-gradient(45deg, #f58484 0%, #efdfd5 100%);
-    background: -o-linear-gradient(45deg, #f58484 0%, #efdfd5 100%);
-    background: -ms-linear-gradient(45deg, #f58484 0%, #efdfd5 100%);
-    background: linear-gradient(45deg, #f58484 0%, #efdfd5 100%)
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5959', endColorstr='#fd6100', GradientType=1 ); }
+    background: #fff; }
 
+    #section-counter1:after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      content: '';
+      z-index: -1;
+      opacity: .8;
+      background: #fff;
+    }
 .ftco-counter {
   overflow-x: hidden;
   position: relative; }

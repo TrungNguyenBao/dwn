@@ -2,8 +2,7 @@
     list-style: disc;
     text-align: left !important;
     color: #fff;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 21px;
 }
 .slider-text-header{
     color: #fff;
@@ -19,7 +18,8 @@
 }
 .slider-contact {
     text-align: center;
-    font-weight: bold;
+    font-size: 22px;
+    font-weight: 700;
 }
 .album {
     padding-top: 3rem;
@@ -49,11 +49,34 @@
   }
   .li-check-match{
     text-align: start;
-    color: #fff;
+    color: #000;
     font-size: 25px;
   }
   .ul-check-match .li-check-match:before {
     content: '✓. ';
     font-size: 34px;
+    color: #000;
+  }
+  .title-header {
+    text-align: center;
     color: #fff;
+  }
+  .title-header-o {
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+    font-size: 27px;
+  }
+  .text-description {
+    text-align: justify;
+    color: #000;
+    font-size: 17px;
+  }
+  .appointment-form {
+    background-color: #ff5959;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .text-color-r {
+    color: #ff5959 !important;
   }
