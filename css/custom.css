@@ -1,8 +1,12 @@
 .li-loi-ich{
-    list-style: disc;
     text-align: left !important;
     color: #fff;
-    font-size: 21px;
+    font-size: 22px;
+}
+ul .li-loi-ich:before {
+  content: '✓ ';
+  font-size: 34px;
+  color: #fff;
 }
 .slider-text-header{
     color: #fff;
@@ -49,13 +53,15 @@
   }
   .li-check-match{
     text-align: start;
-    color: #000;
+    color: #fff;
     font-size: 25px;
+    background: #ff5959;
+    border: none;
   }
   .ul-check-match .li-check-match:before {
-    content: '✓. ';
+    content: '✓ ';
     font-size: 34px;
-    color: #000;
+    color: #fff;
   }
   .title-header {
     text-align: center;
@@ -79,4 +85,29 @@
   }
   .text-color-r {
     color: #ff5959 !important;
+  }
+  .btn.btn-primary:hover {
+    background: transparent !important;
+    color: #f7d926 !important;
+  }
+  .img-number {
+    border-radius: 50%;
+    background: antiquewhite;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .course-ftco-animate {
+    background-image: linear-gradient(#f16565, #fdd1be);
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+    height: 100%;
+  }
+  .slider-text-title-o {
+    text-align: center;
+    color: #fff !important;
+    padding: 3px;
+    background-color: #ff5959;
   }
