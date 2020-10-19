@@ -5,9 +5,9 @@ $font-primary: 'Poppins',Arial, sans-serif;
 
 $white: #fff;
 $black: #000000;
-$darken: #ff5959;
+$darken: #efc706;
 
-$primary: #f5df5d;
+$primary: #f7d926;
 $secondary: #fda638;
 $tertiary: #8cc152;
 $quarternary: #f1453d;
@@ -37,7 +37,7 @@ $fifth: #5d50c6;
 	background: -o-linear-gradient(45deg, rgba(13,17,40,1) 0%, rgba(253,97,0,1) 100%);
 	background: -ms-linear-gradient(45deg, rgba(13,17,40,1) 0%, rgba(253,97,0,1) 100%);
 	background: linear-gradient(45deg, rgba(13,17,40,1) 0%, rgba(253,97,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5959', endColorstr='#fd6100', GradientType=1 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc706', endColorstr='#fd6100', GradientType=1 );
 }
 @mixin gradient-background-two(){
 	background: rgba(253,97,0,1);
@@ -47,7 +47,7 @@ $fifth: #5d50c6;
 	background: -o-linear-gradient(45deg, rgba(253,97,0,1) 0%, rgba(13,17,40,1) 100%);
 	background: -ms-linear-gradient(45deg, rgba(253,97,0,1) 0%, rgba(13,17,40,1) 100%);
 	background: linear-gradient(45deg, rgba(253,97,0,1) 0%, rgba(13,17,40,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd6100', endColorstr='#ff5959', GradientType=1 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd6100', endColorstr='#efc706', GradientType=1 );
 }
 
 html {
@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5,
 
 
 .ftco-navbar-light {
-	background: #ff5959 !important;
+	background: #efc706 !important;
 	// position: absolute;
 	// top: 20px;
 	// left: 0;
@@ -1558,7 +1558,6 @@ textarea.form-control {
 .testimony-wrap{
 	display: block;
 	position: relative;
-	background: rgba(255,255,255,.1);
 	color: rgba(0,0,0,.8);
 	.user-img{
 		width: 120px;

@@ -63,27 +63,33 @@
 	      }
 	    }
 		});
-		$('.carousel-testimony').owlCarousel({
+		jQuery("#carousel").owlCarousel({
 			autoplay: true,
-			center: true,
+			lazyLoad: true,
 			loop: true,
-			items:1,
-			margin: 30,
-			stagePadding: 0,
-			nav: false,
-			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
-			responsive:{
-				0:{
-					items: 1
-				},
-				600:{
-					items: 1
-				},
-				1000:{
-					items: 2
-				}
+			margin: 20,
+			responsiveClass: true,
+			autoHeight: true,
+			autoplayTimeout: 7000,
+			smartSpeed: 800,
+			responsive: {
+			  0: {
+				items: 1
+			  },
+		  
+			  600: {
+				items: 3
+			  },
+		  
+			  1024: {
+				items: 4
+			  },
+		  
+			  1366: {
+				items: 4
+			  }
 			}
-		});
+		  });
 
 	};
 	carousel();
